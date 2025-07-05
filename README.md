@@ -54,7 +54,7 @@
 <table align="center">
   <tr>
     <td>
-      <a href="https://whatsapp.com/channel/0029VatOy2EAzNc2WcShQw1j/2303" target="_blank">
+      <a href="" target="_blank">
         <img alt="View Workflow Codes" src="https://img.shields.io/badge/View-Workflow%20Codes-FF0076?style=for-the-badge&logo=githubactions&logoColor=white"/>
       </a>
     </td>
@@ -82,7 +82,7 @@
 ## 🪀  SUPPORT CHANNEL
 
 <div align="center">
-  <a href="https://whatsapp.com/channel/0029VazFu9h7dmeQZLEuWB0V/229">
+  <a href="">
     <img src="https://img.shields.io/badge/Join-WhatsApp%20Channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white&labelColor=000000"/>
   </a>
 </div>
@@ -116,9 +116,39 @@
 ## 👑 MY STATUS
 
 ```diff
-+ Project Status: Active
-! Version: 5.0.0 Neon Edition
-# License: APACHE
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [20.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Start application
+      run: npm start
 ```
 
 <div align="center">
