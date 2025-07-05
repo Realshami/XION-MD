@@ -10,7 +10,7 @@
 ---
 <p align="center">
   <a href="https://github.com/Awais-star-a11y">
-    <img src="http://readme-typing-svg.herokuapp.com?color=FF0000&center=true&vCenter=true&multiline=false&lines=SENU-MD-+v3.0+MultiDevice;Developed+by+SenuMd;Give+star+and+forks+this+Repo+🌟" alt="XION110Readme">
+    <img src="http://readme-typing-svg.herokuapp.com?color=FF0000&center=true&vCenter=true&multiline=false&lines=XION-MD-+v3.0+MultiDevice;Developed+by+XION;Give+star+and+forks+this+Repo+🌟" alt="XION110Readme">
   </a>
 </p>
 
@@ -113,7 +113,7 @@
   <img src="https://github.com/JawadYT36/KHAN-MD/blob/main/assets/futuretech.gif?raw=true" width="100%"/>
 </div>
 
-## 👑 JESTER STATUS
+## 👑 MY STATUS
 
 ```diff
 + Project Status: Active
