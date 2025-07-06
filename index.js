@@ -127,7 +127,7 @@ const port = process.env.PORT || 9090;
 ├─ 🌟 *Star the Repo:*  
 │    https://github.com/Kkushanshaminda/XION-MD  
 ╰─🚀 *Powered by T3AM X*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3y5w8z.jpg` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://i.ibb.co/Y46jgcpL/2289.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -783,7 +783,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("SENU MD STARTED ✅");
+  res.send("XION MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
