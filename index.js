@@ -123,9 +123,9 @@ const port = process.env.PORT || 9090;
 ╭──〔 🔗 *connected* 〕  
 ├─ 🧩 *Prefix:* = ${prefix}
 ├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+│    https://whatsapp.com/channel/  
 ├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
+│    https://github.com/Kkushanshaminda/XION-MD  
 ╰─🚀 *Powered by T3AM X*`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/3y5w8z.jpg` }, caption: up })
   }
